@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-runtime-public-path",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc -p . --skipLibCheck"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "runtime"
+  ],
+  "author": "1342985759@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "vite": "^2.5.0",
+    "typescript": "^4.0.0"
+  }
+}
